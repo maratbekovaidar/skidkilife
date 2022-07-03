@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skidkilife/configurations/themes/app_theme.dart';
 import 'package:skidkilife/features/home/views/screens/home_page.dart';
 
 void main() {
@@ -14,9 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
+      theme: AppTheme.basic,
       home: const HomePage(),
     );
   }
