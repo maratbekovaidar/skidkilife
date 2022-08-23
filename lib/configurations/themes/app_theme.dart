@@ -11,7 +11,7 @@ class AppTheme {
 
     /// AppBar
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.transparent,
+      backgroundColor: HexColor.getPrimarySwatch("#B20600"),
       elevation: 0,
       iconTheme: IconThemeData(
         color: HexColor.getPrimarySwatch("#B20600"),
